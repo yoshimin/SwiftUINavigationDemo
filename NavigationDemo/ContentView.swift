@@ -49,6 +49,7 @@ struct ContentView: View {
                 }
                 .modalSheet(isPresented: $isPresented) {
                     TipsTopView(onClose: { toggleModal(isPresented: false) })
+                        .putIntoContainer()
                 }
             }
         }

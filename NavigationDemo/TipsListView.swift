@@ -25,6 +25,9 @@ struct TipsListView: View {
         }
     }
     
+    private let scrollViewSize = CGSize(width: UIScreen.main.bounds.width,
+                                        height: UIScreen.main.bounds.height/2)
+    
     private let list = [
         Tip(title: "Cicero", detail: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."),
         Tip(title: "Li Europan lingues ", detail: "Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular."),
@@ -66,7 +69,8 @@ struct TipsListView: View {
         .background(
             RoundedBackgroundView()
         )
-        .frame(height: UIScreen.main.bounds.height/2)
+        .frame(height: scrollViewSize.height)
+        .preference(key: ContentSizePreferenceKey.self, value: scrollViewSize)
         .push(isPresented: $isDetailPresented, item: $selected) {
             TipView(tip: $0!,
                     onClose: onClose,

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		884E253A2538615900253175 /* TipsRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884E25392538615900253175 /* TipsRootView.swift */; };
 		8898BAFB25300BA10057C02F /* NavigationDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8898BAFA25300BA10057C02F /* NavigationDemoApp.swift */; };
 		8898BAFF25300BA30057C02F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8898BAFE25300BA30057C02F /* Assets.xcassets */; };
 		8898BB0225300BA30057C02F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8898BB0125300BA30057C02F /* Preview Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		884E25392538615900253175 /* TipsRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsRootView.swift; sourceTree = "<group>"; };
 		8898BAF725300BA10057C02F /* NavigationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8898BAFA25300BA10057C02F /* NavigationDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDemoApp.swift; sourceTree = "<group>"; };
 		8898BAFE25300BA30057C02F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				88DA920125303F5200539781 /* RoundedCorner.swift */,
 				88DA92092530668C00539781 /* View+SizeThatFit.swift */,
 				88DA920C253067B900539781 /* RoundedBackgroundView.swift */,
+				884E25392538615900253175 /* TipsRootView.swift */,
 			);
 			path = NavigationDemo;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				88DA921425306E0700539781 /* ContentView.swift in Sources */,
 				8898BB1D25300C3C0057C02F /* View+ModalSheet.swift in Sources */,
 				88DA920A2530668C00539781 /* View+SizeThatFit.swift in Sources */,
+				884E253A2538615900253175 /* TipsRootView.swift in Sources */,
 				88DA91F925303EEF00539781 /* TipView.swift in Sources */,
 				8898BB1525300BFE0057C02F /* AnyTransition+Push.swift in Sources */,
 				8898BB1E25300C3C0057C02F /* SheetTransition.swift in Sources */,
